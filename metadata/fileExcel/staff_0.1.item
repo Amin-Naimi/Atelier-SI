@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_V2wJMIOjEe6NJab_J42g4g" name="staff" id="_V2u7EIOjEe6NJab_J42g4g" dataPackage="_V2wJMYOjEe6NJab_J42g4g" Server="Localhost 127.0.0.1" FilePath="C:/Users/Mohamed/Desktop/DSI3/Atelier SI/pdf/projet DWH/staff.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="_t1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="_t1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_V2wJMYOjEe6NJab_J42g4g" name="default" dataManager="_V2wJMIOjEe6NJab_J42g4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_V2wJMoOjEe6NJab_J42g4g" id="_OBqcQIOjEe6NJab_J42g4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJM4OjEe6NJab_J42g4g" label="Employee_ID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJNIOjEe6NJab_J42g4g" label="Start_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJNYOjEe6NJab_J42g4g" label="End_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJNoOjEe6NJab_J42g4g" label="Job_Title" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJN4OjEe6NJab_J42g4g" label="Salary" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJOIOjEe6NJab_J42g4g" label="Gender" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJOYOjEe6NJab_J42g4g" label="Birth_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJOoOjEe6NJab_J42g4g" label="Emp_Hire_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJO4OjEe6NJab_J42g4g" label="Emp_Term_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V2wJPIOjEe6NJab_J42g4g" label="Manager_ID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
